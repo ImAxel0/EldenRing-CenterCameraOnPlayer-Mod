@@ -28,6 +28,7 @@ DWORD WINAPI MainThread(LPVOID lpParam)
 					Replace(patchAddress, { 0x90, 0x90, 0x90, 0x90 }, { 0x66 ,0x0f ,0x7f ,0x07 });
 				}
 			}
+			Sleep(10);
 		}
 	}
 	CloseLog();

@@ -1,0 +1,4 @@
+0x66 ,0x0f ,0x7f ,0x07 ,0xf3 , 0x0f, 0x10, 0xab xxxxxxxx
+
+7FF67A436AC0 - 66 0F7F 07            - movdqa [rdi],xmm0		<- NOP this
+7FF67A436AC4 - F3 0F10 AB 90010000   - movss xmm5,[rbx+00000190]
